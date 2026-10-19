@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desertind — Dessert Oreo, Matcha & Strawberry</title>
+
+<meta name="description" content="Desertind — Dessert Oreo Matcha Strawberry homemade, Rp 13.000–15.000. COD Pemalang Kota & Kec. Taman, free ongkir. Bisa ambil sendiri.">
+<meta name="keywords" content="dessert oreo, oreo matcha, oreo strawberry, dessert pemalang, cod pemalang, desertind">
+<meta name="author" content="Desertind">
+<meta property="og:title" content="Desertind — Dessert Oreo, Matcha & Strawberry">
+<meta property="og:description" content="Dessert homemade lembut & creamy. Rp 13.000–15.000. COD Pemalang Kota free ongkir!">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://example.com/foto-produk-desertind.jpg">
+<meta name="theme-color" content="#fffaf4">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%AA%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cream:#fffaf4;
+  --ink:#4b3a33;
+  --muted:#93817a;
+  --oreo:#c9a87c;
+  --oreo-dark:#7a5a38;
+  --oreo-soft:#f5ece1;
+  --matcha:#8fd06a;
+  --matcha-dark:#5c9c3d;
+  --matcha-soft:#eaf8df;
+  --straw:#ff9ab8;
+  --straw-dark:#e2608a;
+  --straw-soft:#ffeaf1;
+  --card:#ffffff;
+  --shadow:0 14px 34px rgba(180,140,120,.16);
+}
+[data-theme="dark"]{
+  --cream:#1a1612;
+  --ink:#ede4d8;
+  --muted:#a89b8e;
+  --card:#252019;
+  --shadow:0 14px 34px rgba(0,0,0,.5);
+  --oreo-soft:#2e2620;
+  --matcha-soft:#1d2a18;
+  --straw-soft:#2e1e25;
+}
+[data-theme="dark"] body{background:var(--cream);color:var(--ink)}
+[data-theme="dark"] header{background:rgba(26,22,18,.85);border-bottom-color:rgba(255,154,184,.15)}
+[data-theme="dark"] .theme-toggle{background:#2a2520;border-color:#3a322b;color:var(--ink)}
+[data-theme="dark"] .hero{background:radial-gradient(circle at 15% 18%, #2a1a20 0%, transparent 45%),radial-gradient(circle at 85% 25%, #1d2a18 0%, transparent 45%),radial-gradient(circle at 50% 95%, #2a2018 0%, transparent 50%),var(--cream)}
+[data-theme="dark"] .badge{background:var(--card);border-color:#3a322b;color:var(--straw-dark)}
+[data-theme="dark"] .card{background:var(--card);border-color:#3a322b}
+[data-theme="dark"] .card::before{opacity:.3}
+[data-theme="dark"] .card h3{color:var(--ink)}
+[data-theme="dark"] .card .desc{color:var(--muted)}
+[data-theme="dark"] .tag{background:linear-gradient(135deg,#8a6a20,#6a4a10);color:#ffe8b0}
+[data-theme="dark"] .tag.oreo-tag{background:linear-gradient(135deg,#8a6a4a,#5a4030);color:#ffe8d0}
+[data-theme="dark"] .btn-ghost{background:#2a2520;color:var(--matcha);border-color:#3a4a2b}
+[data-theme="dark"] .btn-ghost:hover{border-color:var(--matcha)}
+[data-theme="dark"] .sec-title{color:var(--ink)}
+[data-theme="dark"] .sec-sub{color:var(--muted)}
+[data-theme="dark"] .hero p{color:var(--muted)}
+[data-theme="dark"] .feat{background:var(--card)}
+[data-theme="dark"] .feat h4{color:var(--ink)}
+[data-theme="dark"] .feat p{color:var(--muted)}
+[data-theme="dark"] .testi{background:var(--card)}
+[data-theme="dark"] .testi p{color:var(--muted)}
+[data-theme="dark"] .testi .who{color:var(--ink)}
+[data-theme="dark"] .lokasi-card{background:var(--card)}
+[data-theme="dark"] .lokasi-item{background:linear-gradient(135deg,#252019,#2a2520);border-color:#3a322b}
+[data-theme="dark"] .lokasi-item:hover{background:linear-gradient(135deg,#2e2025,#2a2520);border-color:rgba(255,154,184,.3)}
+[data-theme="dark"] .lokasi-item.temu{background:linear-gradient(135deg,#2e2025,#1d2a18)}
+[data-theme="dark"] .lokasi-item h4{color:var(--ink)}
+[data-theme="dark"] .lokasi-item p{color:var(--muted)}
+[data-theme="dark"] .cara-step{background:var(--card)}
+[data-theme="dark"] .cara-step h4{color:var(--ink)}
+[data-theme="dark"] .cara-step p{color:var(--muted)}
+[data-theme="dark"] footer{background:linear-gradient(180deg,#1a1512,#14110e);color:var(--muted)}
+[data-theme="dark"] footer .footer-brand{color:var(--ink) !important}
+[data-theme="dark"] .scroll-hint{color:var(--muted)}
+[data-theme="dark"] .modal{background:var(--card)}
+[data-theme="dark"] .modal-head{background:linear-gradient(135deg,#2a2029,#1d2a18);border-bottom-color:rgba(255,224,234,.1)}
+[data-theme="dark"] .modal-head h3{color:var(--ink)}
+[data-theme="dark"] .modal-head p{color:var(--muted)}
+[data-theme="dark"] .modal-close{background:#3a322b;color:var(--straw-dark)}
+[data-theme="dark"] .modal-body{background:var(--card)}
+[data-theme="dark"] .modal-foot{background:linear-gradient(180deg,#1a1512,#14110e);border-top-color:rgba(255,224,234,.1)}
+[data-theme="dark"] .mini-label{color:var(--ink)}
+[data-theme="dark"] .variant{background:linear-gradient(135deg,#252019,#2a2520);border-color:#3a322b}
+[data-theme="dark"] .variant.o.active-v{background:linear-gradient(135deg,#332a20,#2a2018);border-color:#5a4a30}
+[data-theme="dark"] .variant.m.active-v{background:linear-gradient(135deg,#1d2a18,#253019);border-color:#3a4a2b}
+[data-theme="dark"] .variant.s.active-v{background:linear-gradient(135deg,#2e1e25,#3a2028);border-color:#5a3040}
+[data-theme="dark"] .v-name h4{color:var(--ink)}
+[data-theme="dark"] .size-btn,[data-theme="dark"] .chip,[data-theme="dark"] .qty-ctl,[data-theme="dark"] .area-select{background:#2a2520;border-color:#3a322b;color:var(--muted)}
+[data-theme="dark"] .size-btn:hover,[data-theme="dark"] .chip:hover{border-color:#4a423b}
+[data-theme="dark"] .qty-ctl button{background:#3a322b;color:var(--ink)}
+[data-theme="dark"] .qty-ctl button:hover{background:#4a3a30;color:var(--straw-dark)}
+[data-theme="dark"] .size-btn.active{background:#2a2520;color:var(--oreo-dark);border-color:var(--oreo)}
+[data-theme="dark"] .variant.m .size-btn.active{background:#2a2520;color:var(--matcha);border-color:var(--matcha)}
+[data-theme="dark"] .variant.s .size-btn.active{background:#2a2520;color:var(--straw);border-color:var(--straw)}
+[data-theme="dark"] .chip.active{background:#3a4a2b;color:var(--matcha);border-color:var(--matcha)}
+[data-theme="dark"] .area-select.filled{background:#1d2a18;border-color:var(--matcha)}
+[data-theme="dark"] .qty-ctl .num{color:var(--ink)}
+[data-theme="dark"] .v-subtotal{color:var(--muted)}
+[data-theme="dark"] .field input,[data-theme="dark"] .field textarea{background:#2a2520;border-color:#3a322b;color:var(--ink)}
+[data-theme="dark"] .field input::placeholder,[data-theme="dark"] .field textarea::placeholder{color:#6a5f56}
+[data-theme="dark"] .field input:focus,[data-theme="dark"] .field textarea:focus{background:#2a2520;border-color:var(--straw);box-shadow:0 0 0 4px rgba(255,154,184,.12)}
+[data-theme="dark"] .metode-opt{background:#2a2520;border-color:#3a322b}
+[data-theme="dark"] .metode-opt.active{background:#1d2a18;border-color:var(--matcha)}
+[data-theme="dark"] .metode-name{color:var(--ink)}
+[data-theme="dark"] .ongkir-info.free{background:linear-gradient(135deg,#1d2a18,#253019)}
+[data-theme="dark"] .ongkir-info.paid{background:linear-gradient(135deg,#2e1e25,#3a2e18)}
+[data-theme="dark"] .modal-error{background:#3a2020;border-color:#5a3030;color:#ffaaaa}
+[data-theme="dark"] .invoice-head{background:linear-gradient(135deg,#2a2029,#1d2a18);border-bottom-color:rgba(255,224,234,.1)}
+[data-theme="dark"] .invoice-head h3{color:var(--matcha)}
+[data-theme="dark"] .invoice-head p{color:var(--muted)}
+[data-theme="dark"] .invoice-reminder{background:linear-gradient(135deg,#3a2e18,#2e2515);border-color:#8a6a20;color:#ffd166}
+[data-theme="dark"] .invoice-reminder strong{color:#ffe8b0}
+[data-theme="dark"] .invoice-content{background:var(--card);color:var(--ink)}
+[data-theme="dark"] .inv-brand-sub{color:var(--straw-dark)}
+[data-theme="dark"] .inv-meta{background:#2a2520}
+[data-theme="dark"] .inv-meta-row span:first-child{color:var(--muted)}
+[data-theme="dark"] .inv-meta-row span:last-child{color:var(--ink)}
+[data-theme="dark"] .inv-kv span:first-child{color:var(--muted)}
+[data-theme="dark"] .inv-kv span:last-child{color:var(--ink)}
+[data-theme="dark"] .inv-section{border-bottom-color:rgba(255,255,255,.06)}
+[data-theme="dark"] .inv-table td{border-bottom-color:rgba(255,255,255,.06)}
+[data-theme="dark"] .inv-item-name{color:var(--ink)}
+[data-theme="dark"] .inv-item-detail{color:var(--muted)}
+[data-theme="dark"] .inv-item-price{color:var(--ink)}
+[data-theme="dark"] .inv-totals{background:linear-gradient(135deg,#2e2025,#1d2a18)}
+[data-theme="dark"] .inv-patokan{background:linear-gradient(135deg,#2e2025,#1d2a18);border-color:rgba(255,154,184,.3)}
+[data-theme="dark"] .inv-patokan-val{color:var(--ink)}
+[data-theme="dark"] .inv-footer{border-top-color:rgba(255,224,234,.1)}
+[data-theme="dark"] .invoice-actions{background:linear-gradient(180deg,#1a1512,#14110e);border-top-color:rgba(255,224,234,.1)}
+[data-theme="dark"] .invoice-hint{color:var(--muted)}
+[data-theme="dark"] .invoice-btn-row .btn-ghost{color:var(--ink);border-color:#3a322b;background:#2a2520}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Quicksand',sans-serif;background:var(--cream);color:var(--ink);overflow-x:hidden;line-height:1.6;transition:background .3s, color .3s}
+body.lock{overflow:hidden}
+h1,h2,h3,h4,.baloo{font-family:'Baloo 2',cursive}
+header{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:14px 22px;backdrop-filter:blur(12px);background:rgba(255,250,244,.78);border-bottom:2px dashed rgba(226,96,138,.18);transition:background .3s}
+.header-right{display:flex;align-items:center;gap:10px}
+.logo{display:flex;align-items:center;gap:10px;font-family:'Baloo 2';font-weight:800;font-size:1.15rem;color:var(--ink)}
+.logo .dot{width:34px;height:34px;border-radius:50%;background:radial-gradient(circle at 50% 50%, #fff 2.5px, transparent 3px),radial-gradient(circle at 26% 26%, #fff 1.8px, transparent 2.3px),radial-gradient(circle at 74% 26%, #fff 1.8px, transparent 2.3px),radial-gradient(circle at 26% 74%, #fff 1.8px, transparent 2.3px),radial-gradient(circle at 74% 74%, #fff 1.8px, transparent 2.3px),radial-gradient(circle at 50% 50%, #5c4a42 0%, #3b2d27 100%);box-shadow:0 4px 12px rgba(75,58,51,.3)}
+.theme-toggle{width:38px;height:38px;border-radius:50%;background:#fff;border:2px solid #ffe0ea;color:var(--straw-dark);font-size:1rem;cursor:pointer;box-shadow:0 4px 12px rgba(180,140,120,.15);transition:.22s;display:grid;place-items:center}
+.theme-toggle:hover{transform:scale(1.08) rotate(-10deg)}
+.nav-btn{background:linear-gradient(135deg,#ffb3c9,#ff8fb1);color:#fff;border:none;cursor:pointer;font-family:'Baloo 2';font-weight:700;font-size:.95rem;padding:9px 20px;border-radius:50px;box-shadow:0 6px 16px rgba(255,143,177,.45);transition:.25s}
+.nav-btn:hover{transform:translateY(-2px);box-shadow:0 10px 22px rgba(255,143,177,.55)}
+.hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:110px 22px 70px;position:relative;overflow:hidden;background:radial-gradient(circle at 15% 18%, #ffe3ec 0%, transparent 45%),radial-gradient(circle at 85% 25%, #e2f5d3 0%, transparent 45%),radial-gradient(circle at 50% 95%, #f5ece1 0%, transparent 50%),var(--cream);transition:background .3s}
+.blob{position:absolute;border-radius:50%;pointer-events:none;filter:blur(60px);opacity:.5;animation:floatBlob 12s ease-in-out infinite}
+.blob.b1{width:220px;height:220px;background:#ffd6e4;top:14%;left:6%}
+.blob.b2{width:260px;height:260px;background:#e2f5d3;top:22%;right:8%;animation-delay:2s}
+.blob.b3{width:180px;height:180px;background:#f5ece1;bottom:16%;left:14%;animation-delay:4s}
+.blob.b4{width:200px;height:200px;background:#ffe3f0;bottom:12%;right:16%;animation-delay:1s}
+@keyframes floatBlob{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(10px,-20px) scale(1.08)}}
+.floaty{position:absolute;font-size:2rem;opacity:.9;pointer-events:none;animation:float 6s ease-in-out infinite;filter:drop-shadow(0 6px 12px rgba(120,80,60,.15));z-index:1;user-select:none}
+.floaty.small{font-size:1.4rem}
+.floaty.big{font-size:2.4rem}
+@keyframes float{0%,100%{transform:translateY(0) rotate(-6deg)}50%{transform:translateY(-22px) rotate(8deg)}}
+.badge{display:inline-flex;align-items:center;gap:8px;background:#fff;border:2px solid #ffe0ea;padding:8px 18px;border-radius:50px;font-weight:700;font-size:.85rem;color:var(--straw-dark);box-shadow:0 8px 20px rgba(255,154,184,.2);margin-bottom:24px;position:relative;z-index:2;transition:background .3s}
+.badge::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--matcha);box-shadow:0 0 0 3px rgba(143,208,106,.25);animation:pulseDot 2s ease-in-out infinite}
+@keyframes pulseDot{0%,100%{box-shadow:0 0 0 3px rgba(143,208,106,.25)}50%{box-shadow:0 0 0 6px rgba(143,208,106,.1)}}
+.hero h1{font-size:clamp(2rem,6vw,3.8rem);line-height:1.15;font-weight:800;letter-spacing:-1px;margin-bottom:18px;position:relative;z-index:2}
+.hero h1 .sub-flavors{display:block;font-size:clamp(1.3rem,3.4vw,2rem);margin-top:8px;letter-spacing:0}
+.grad-o{background:linear-gradient(135deg,#7a5a38,#c9a87c);-webkit-background-clip:text;background-clip:text;color:transparent}
+.grad-m{background:linear-gradient(135deg,#6fb84a,#a8e07e);-webkit-background-clip:text;background-clip:text;color:transparent}
+.grad-s{background:linear-gradient(135deg,#ff7ba6,#ffb3c9);-webkit-background-clip:text;background-clip:text;color:transparent}
+.dot-sep{opacity:.35;font-weight:800}
+.hero p{max-width:540px;font-size:1.05rem;color:var(--muted);font-weight:500;margin-bottom:34px;position:relative;z-index:2}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;position:relative;z-index:2}
+.btn{font-family:'Baloo 2';font-weight:700;font-size:1rem;padding:15px 30px;border-radius:50px;border:none;cursor:pointer;transition:.28s;display:inline-flex;align-items:center;justify-content:center;gap:9px;text-decoration:none}
+.btn-main{background:linear-gradient(135deg,#ffa8c4,#ff7fa8);color:#fff;box-shadow:0 12px 26px rgba(255,127,168,.45)}
+.btn-main:hover{transform:translateY(-3px);box-shadow:0 18px 34px rgba(255,127,168,.55)}
+.btn-ghost{background:#fff;color:var(--matcha-dark);border:3px solid #d9f0c4;box-shadow:0 10px 24px rgba(143,208,106,.2)}
+.btn-ghost:hover{transform:translateY(-3px);border-color:var(--matcha)}
+.scroll-hint{margin-top:56px;font-size:.82rem;color:var(--muted);font-weight:600;display:flex;flex-direction:column;align-items:center;gap:4px;position:relative;z-index:2}
+.scroll-hint span{animation:bounce 1.6s infinite}
+@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}
+section{padding:80px 22px;position:relative}
+.wrap{max-width:1100px;margin:0 auto}
+.sec-title{text-align:center;margin-bottom:14px;font-size:clamp(1.7rem,4.5vw,2.5rem);font-weight:800}
+.sec-sub{text-align:center;color:var(--muted);font-weight:500;margin-bottom:48px}
+.cara-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px}
+.cara-step{background:#fff;border-radius:28px;padding:28px 22px;text-align:center;box-shadow:0 10px 26px rgba(180,140,120,.12);border:3px solid #fff;position:relative;transition:.3s}
+.cara-step:hover{transform:translateY(-6px)}
+.cara-num{width:54px;height:54px;border-radius:50%;background:linear-gradient(135deg,var(--matcha),var(--straw));color:#fff;font-family:'Baloo 2';font-weight:800;font-size:1.5rem;display:grid;place-items:center;margin:0 auto 16px;box-shadow:0 8px 20px rgba(143,208,106,.35)}
+.cara-step h4{font-family:'Baloo 2';font-size:1.05rem;margin-bottom:6px}
+.cara-step p{font-size:.86rem;color:var(--muted)}
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+.card{background:var(--card);border-radius:30px;padding:30px 24px 26px;box-shadow:var(--shadow);border:3px solid #fff;position:relative;overflow:hidden;transition:.4s cubic-bezier(.2,.8,.3,1);text-align:center}
+.card::before{content:'';position:absolute;inset:-40% -40% auto auto;width:180px;height:180px;border-radius:50%;background:var(--straw-soft);opacity:.7;transition:.5s}
+.card.o::before{background:var(--oreo-soft)}
+.card.m::before{background:var(--matcha-soft)}
+.card.s::before{background:var(--straw-soft)}
+.card:hover{transform:translateY(-10px);box-shadow:0 26px 50px rgba(180,140,120,.28)}
+.card:hover::before{transform:scale(1.35)}
+.cup{width:130px;height:130px;border-radius:50%;display:grid;place-items:center;font-size:58px;margin:0 auto 18px;position:relative;z-index:1;animation:float 5s ease-in-out infinite}
+.cup.o{background:radial-gradient(circle at 32% 26%,#fbf4ea,#e0cbb0 72%);box-shadow:inset 0 -12px 22px rgba(160,120,80,.22),0 14px 26px rgba(180,140,100,.3)}
+.cup.m{background:radial-gradient(circle at 32% 26%,#f0fbe6,#b9e69a 72%);box-shadow:inset 0 -12px 22px rgba(110,170,70,.22),0 14px 26px rgba(143,208,106,.3)}
+.cup.s{background:radial-gradient(circle at 32% 26%,#ffeaf1,#ffb0c8 72%);box-shadow:inset 0 -12px 22px rgba(220,120,150,.22),0 14px 26px rgba(255,154,184,.3)}
+.card h3{font-size:1.35rem;font-weight:800;margin-bottom:6px;position:relative;z-index:1}
+.card .desc{color:var(--muted);font-size:.88rem;margin-bottom:16px;position:relative;z-index:1;min-height:44px}
+.price{font-family:'Baloo 2';font-weight:800;font-size:1.5rem;margin-bottom:16px;position:relative;z-index:1}
+.price small{font-size:.7rem;font-weight:600;color:var(--muted);display:block}
+.price.o{color:var(--oreo-dark)}
+.price.m{color:var(--matcha-dark)}
+.price.s{color:var(--straw-dark)}
+.card .btn{width:100%;position:relative;z-index:1;padding:13px 22px;font-size:.92rem}
+.tag{position:absolute;top:16px;right:16px;z-index:2;background:linear-gradient(135deg,#ffd166,#ffb703);color:#6b4a00;font-family:'Baloo 2';font-weight:700;font-size:.7rem;padding:6px 13px;border-radius:50px;transform:rotate(4deg);box-shadow:0 6px 14px rgba(255,183,3,.4)}
+.tag.oreo-tag{background:linear-gradient(135deg,#e0cbb0,#b8956a);color:#fff;box-shadow:0 6px 14px rgba(180,140,100,.4)}
+.lokasi-card{background:#fff;border-radius:34px;padding:34px 30px;box-shadow:var(--shadow);border:3px solid #fff;max-width:880px;margin:0 auto;transition:background .3s}
+.lokasi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.lokasi-item{display:flex;gap:14px;align-items:flex-start;padding:18px 18px 18px 20px;border-radius:22px;background:linear-gradient(135deg,#fffdfa,#fff8f4);border:2.5px dashed #f7ece4;transition:.3s}
+.lokasi-item:hover{transform:translateY(-3px);border-color:#ffd7e3;background:linear-gradient(135deg,#fff8fb,#fff3f7)}
+.lokasi-item.temu{grid-column:1 / -1;background:linear-gradient(135deg,#fff8fb,#f5fbe9);border-color:#ffd7e3}
+.lokasi-icon{width:44px;height:44px;flex:0 0 auto;border-radius:12px;background:linear-gradient(135deg,var(--matcha-soft),var(--straw-soft));color:var(--matcha-dark);display:grid;place-items:center}
+.lokasi-item h4{font-family:'Baloo 2';font-size:1rem;font-weight:800;margin-bottom:4px;line-height:1.2}
+.lokasi-item p{font-size:.82rem;color:var(--muted);font-weight:600;line-height:1.5}
+.feat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:22px}
+.feat{background:#fff;border-radius:28px;padding:30px 22px;text-align:center;box-shadow:0 10px 26px rgba(180,140,120,.12);border:3px solid #fff;transition:.3s}
+.feat:hover{transform:translateY(-6px);box-shadow:0 18px 38px rgba(180,140,120,.2)}
+.feat-icon{width:54px;height:54px;border-radius:16px;background:linear-gradient(135deg,var(--matcha-soft),var(--straw-soft));color:var(--matcha-dark);display:grid;place-items:center;margin:0 auto 16px}
+.feat h4{font-family:'Baloo 2';font-size:1.05rem;margin-bottom:6px}
+.feat p{font-size:.86rem;color:var(--muted)}
+.testi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
+.testi{background:#fff;border-radius:26px;padding:24px;box-shadow:0 10px 26px rgba(180,140,120,.12);border:3px solid #fff;transition:.3s}
+.testi:hover{transform:translateY(-5px)}
+.stars{color:#ffc93c;font-size:.95rem;margin-bottom:10px;letter-spacing:2px}
+.testi p{font-size:.9rem;color:var(--muted);margin-bottom:14px}
+.who{display:flex;align-items:center;gap:10px;font-weight:700;font-size:.88rem}
+.avatar{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-family:'Baloo 2';font-weight:800;font-size:1rem;color:#fff}
+.avatar.a1{background:linear-gradient(135deg,#ffb3c9,#ff8fb1)}
+.avatar.a2{background:linear-gradient(135deg,#a8e07e,#7cc24a)}
+.avatar.a3{background:linear-gradient(135deg,#e0cbb0,#b8956a)}
+footer{text-align:center;padding:50px 22px 110px;background:linear-gradient(180deg,#fdf3ea,#ffe9f0);color:var(--muted);font-size:.88rem;transition:background .3s}
+footer strong{color:var(--straw-dark)}
+.float-wa{position:fixed;bottom:22px;right:22px;z-index:200;width:60px;height:60px;border-radius:50%;background:linear-gradient(135deg,#5ee08a,#25c05e);display:grid;place-items:center;color:#fff;box-shadow:0 12px 28px rgba(37,192,94,.5);cursor:pointer;border:none;transition:.3s}
+.float-wa:hover{transform:scale(1.08)}
+.modal-backdrop{position:fixed;inset:0;z-index:1000;background:rgba(75,58,51,.45);-webkit-backdrop-filter:blur(7px);backdrop-filter:blur(7px);display:flex;align-items:center;justify-content:center;padding:16px;opacity:0;pointer-events:none;transition:opacity .3s ease}
+.modal-backdrop.open{opacity:1;pointer-events:auto}
+.modal{width:min(560px,100%);max-height:92vh;background:#fff;border-radius:34px;box-shadow:0 34px 80px rgba(120,80,60,.4);display:flex;flex-direction:column;overflow:hidden;transform:translateY(40px) scale(.92);opacity:0;transition:transform .45s cubic-bezier(.2,1.5,.4,1), opacity .3s ease, background .3s}
+.modal-backdrop.open .modal{transform:none;opacity:1}
+.modal-head{position:relative;padding:24px 26px 20px;background:radial-gradient(circle at 88% 15%, #e8f8da 0%, transparent 55%),radial-gradient(circle at 10% 90%, #f5ece1 0%, transparent 55%),linear-gradient(135deg,#fff6fa,#f6fbef);border-bottom:2px dashed #ffe0ea;text-align:center;flex:0 0 auto}
+.modal-head h3{font-size:1.4rem;font-weight:800;line-height:1.2}
+.modal-head p{font-size:.83rem;color:var(--muted);font-weight:600;margin-top:4px}
+.modal-close{position:absolute;top:14px;right:14px;width:36px;height:36px;border-radius:50%;border:none;background:#fff;color:var(--straw-dark);font-size:1rem;font-weight:800;cursor:pointer;display:grid;place-items:center;box-shadow:0 6px 16px rgba(180,140,120,.22);transition:.22s}
+.modal-close:hover{transform:rotate(90deg);background:var(--straw-soft)}
+.modal-body{padding:20px 22px 4px;overflow-y:auto;flex:1 1 auto;-webkit-overflow-scrolling:touch}
+.modal-body::-webkit-scrollbar{width:8px}
+.modal-body::-webkit-scrollbar-thumb{background:#f2ddd0;border-radius:10px}
+.mini-label{font-family:'Baloo 2';font-weight:700;font-size:.95rem;margin-bottom:12px;display:flex;align-items:center;gap:8px;color:var(--ink)}
+.mini-label .pill{font-family:'Quicksand';font-weight:700;font-size:.68rem;background:var(--matcha-soft);color:var(--matcha-dark);padding:3px 10px;border-radius:50px}
+.mini-label .pill.auto{background:linear-gradient(135deg,#ffe9f1,#eaf8df);color:var(--straw-dark)}
+.mini-label .req{font-weight:500;font-size:.75rem;color:#d9534f}
+.mini-label .opt{font-weight:500;font-size:.75rem;color:var(--muted)}
+.variant{background:linear-gradient(135deg,#fffdfa,#fff8f4);border:2.5px solid #f7ece4;border-radius:22px;padding:14px 14px 13px;margin-bottom:12px;transition:.3s}
+.variant.o.active-v{background:linear-gradient(135deg,#fbf4ea,#f5ece1);border-color:#e0cbb0}
+.variant.m.active-v{background:linear-gradient(135deg,#f7fdef,#eefadf);border-color:#c9ecac}
+.variant.s.active-v{background:linear-gradient(135deg,#fff5f9,#ffe9f1);border-color:#ffc4d8}
+.v-top{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.v-emoji{width:44px;height:44px;border-radius:12px;flex:0 0 auto;display:grid;place-items:center;font-size:20px}
+.variant.o .v-emoji{background:radial-gradient(circle at 32% 26%,#fbf4ea,#d8c0a0 75%)}
+.variant.m .v-emoji{background:radial-gradient(circle at 32% 26%,#f0fbe6,#c3e9a8 75%)}
+.variant.s .v-emoji{background:radial-gradient(circle at 32% 26%,#ffeaf1,#ffb8cf 75%)}
+.v-name{flex:1;min-width:0}
+.v-name h4{font-size:1rem;font-weight:800;line-height:1.2}
+.v-name small{font-size:.72rem;color:var(--muted);font-weight:700}
+.size-row{display:flex;gap:8px;margin-bottom:10px}
+.size-btn{flex:1;padding:8px 6px;border-radius:14px;border:2.5px solid #f2e8e0;background:#fff;font-family:'Quicksand';font-weight:700;font-size:.78rem;color:var(--muted);cursor:pointer;transition:.22s;line-height:1.25}
+.size-btn small{display:block;font-size:.66rem;font-weight:600;opacity:.85}
+.size-btn:hover{border-color:#e6d5c9}
+.size-btn.active{background:#fff;color:var(--oreo-dark);border-color:var(--oreo);box-shadow:0 6px 16px rgba(201,168,124,.28)}
+.variant.m .size-btn.active{color:var(--matcha-dark);border-color:var(--matcha);box-shadow:0 6px 16px rgba(143,208,106,.28)}
+.variant.s .size-btn.active{color:var(--straw-dark);border-color:var(--straw);box-shadow:0 6px 16px rgba(255,154,184,.32)}
+.v-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.qty-ctl{display:flex;align-items:center;gap:8px;background:#fff;border-radius:50px;padding:3px;border:2.5px solid #f2e8e0}
+.qty-ctl button{width:32px;height:32px;border-radius:50%;border:none;background:#fdf3ea;color:var(--ink);font-size:1.05rem;font-weight:800;line-height:1;cursor:pointer;display:grid;place-items:center;transition:.18s}
+.qty-ctl button:hover{background:#ffe3ec;color:var(--straw-dark)}
+.variant.o .qty-ctl button:hover{background:#f5ece1;color:var(--oreo-dark)}
+.variant.m .qty-ctl button:hover{background:#e9f8da;color:var(--matcha-dark)}
+.qty-ctl .num{font-family:'Baloo 2';font-weight:800;font-size:1.05rem;min-width:22px;text-align:center}
+.v-subtotal{font-family:'Baloo 2';font-weight:800;font-size:.9rem;color:var(--muted);transition:.25s}
+.v-subtotal.on{color:var(--straw-dark)}
+.variant.o .v-subtotal.on{color:var(--oreo-dark)}
+.variant.m .v-subtotal.on{color:var(--matcha-dark)}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{padding:8px 14px;border-radius:50px;border:2.5px dashed #e6d5c9;background:#fff;cursor:pointer;font-family:'Quicksand';font-weight:700;font-size:.8rem;color:var(--muted);transition:.22s}
+.chip:hover{border-color:#d9c7b9}
+.chip.active{border-style:solid;border-color:var(--matcha);background:var(--matcha-soft);color:var(--matcha-dark);box-shadow:0 6px 16px rgba(143,208,106,.28)}
+.chip.active::after{content:' ✓';font-weight:800}
+.metode-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.metode-opt{padding:14px 10px;border-radius:18px;border:2.5px solid #f2e8e0;background:#fff;cursor:pointer;text-align:center;transition:.22s;font-family:'Quicksand'}
+.metode-opt:hover{border-color:#e6d5c9;transform:translateY(-2px)}
+.metode-opt.active{border-color:var(--matcha);background:var(--matcha-soft);transform:scale(1.02)}
+.metode-icon{font-size:1.6rem;margin-bottom:4px}
+.metode-name{font-family:'Baloo 2';font-weight:800;font-size:.88rem;color:var(--ink)}
+.metode-desc{font-size:.68rem;color:var(--muted);font-weight:600;margin-top:2px}
+.area-select{width:100%;padding:13px 44px 13px 18px;border-radius:16px;border:2.5px solid #f2e8e0;background-color:#fffaf4;font-family:'Quicksand';font-weight:700;font-size:.9rem;color:var(--ink);outline:none;cursor:pointer;transition:.22s;appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath fill='%23e2608a' d='M7 9L0 0h14z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 18px center}
+.area-select:focus{border-color:var(--straw);background-color:#fff;box-shadow:0 0 0 4px rgba(255,154,184,.15)}
+.area-select.filled{border-color:var(--matcha);background-color:#f7fdef}
+.ongkir-info{display:none;margin-top:10px;padding:12px 16px;border-radius:16px;font-size:.86rem;font-weight:700;text-align:center}
+.ongkir-info.free{background:linear-gradient(135deg,#eaf8df,#f7fdef);color:var(--matcha-dark);border:2px dashed #c9ecac;display:block}
+.ongkir-info.paid{background:linear-gradient(135deg,#ffeaf1,#fff8fb);color:var(--straw-dark);border:2px dashed #ffc4d8;display:block}
+.hint{font-size:.72rem;color:#b9a79e;font-weight:600;margin-top:8px;display:flex;align-items:center;gap:5px}
+.hint.required::before{content:'*';font-weight:800;color:#d9534f;margin-right:2px}
+.field{margin-bottom:4px}
+.field input,.field textarea{width:100%;padding:12px 16px;border-radius:16px;border:2.5px solid #f2e8e0;background:#fffaf4;font-family:'Quicksand';font-weight:600;font-size:.9rem;color:var(--ink);outline:none;transition:.22s}
+.field textarea{resize:vertical;min-height:60px;line-height:1.5}
+.field input::placeholder,.field textarea::placeholder{color:#c3b3aa;font-weight:600}
+.field input:focus,.field textarea:focus{border-color:var(--straw);background:#fff;box-shadow:0 0 0 4px rgba(255,154,184,.15)}
+.field input.invalid,.field textarea.invalid{border-color:#ffb3b3;background:#fff8f8}
+.modal-error{display:none;background:#fff2f2;color:#d9534f;border:2px dashed #ffc9c9;border-radius:16px;padding:10px 14px;font-size:.82rem;font-weight:700;text-align:center;margin-bottom:12px}
+.modal-error.show{display:block}
+@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-9px)}40%{transform:translateX(9px)}60%{transform:translateX(-6px)}80%{transform:translateX(6px)}}
+.shake{animation:shake .45s ease}
+.modal-foot{padding:14px 22px 20px;background:linear-gradient(180deg,#fffdfa,#fff7f2);border-top:2px dashed #ffe0ea;flex:0 0 auto;transition:background .3s}
+.total-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;gap:10px}
+.total-row .lbl{font-size:.82rem;font-weight:700;color:var(--muted)}
+.total-row .val{font-family:'Baloo 2';font-weight:800;font-size:1.7rem;color:var(--straw-dark);line-height:1}
+.total-row .val-sm{font-family:'Baloo 2';font-weight:800;font-size:.98rem;color:var(--ink)}
+.total-row .val-sm.free{color:var(--matcha-dark)}
+.total-final{padding-top:8px;margin-top:4px;margin-bottom:12px;border-top:2px dashed #ffe0ea}
+.btn-wa{width:100%;background:linear-gradient(135deg,#5ee08a,#25c05e);color:#fff;box-shadow:0 12px 28px rgba(37,192,94,.42);font-size:1rem;padding:15px;display:inline-flex;align-items:center;justify-content:center;gap:9px}
+.btn-wa:hover{transform:translateY(-2px);box-shadow:0 18px 36px rgba(37,192,94,.52)}
+#invoiceBackdrop{z-index:1100}
+.invoice-modal{width:min(480px,100%);max-height:94vh}
+.invoice-head{padding:20px 24px 16px;background:radial-gradient(circle at 88% 15%, #e8f8da 0%, transparent 55%),radial-gradient(circle at 10% 90%, #ffe4ee 0%, transparent 55%),linear-gradient(135deg,#fff6fa,#f6fbef);border-bottom:2px dashed #ffe0ea;text-align:center;position:relative;flex:0 0 auto}
+.invoice-success{width:54px;height:54px;border-radius:50%;background:linear-gradient(135deg,#5ee08a,#25c05e);color:#fff;font-size:1.6rem;font-weight:800;display:grid;place-items:center;margin:0 auto 10px;box-shadow:0 10px 24px rgba(37,192,94,.4);animation:popIn .5s cubic-bezier(.2,1.6,.4,1)}
+@keyframes popIn{from{transform:scale(0);opacity:0}to{transform:scale(1);opacity:1}}
+.invoice-head h3{font-size:1.3rem;font-weight:800;line-height:1.2;color:var(--matcha-dark)}
+.invoice-head p{font-size:.82rem;color:var(--muted);font-weight:600;margin-top:3px}
+.invoice-body{padding:0;overflow-y:auto;flex:1 1 auto;background:#fff;transition:background .3s}
+.invoice-body::-webkit-scrollbar{width:8px}
+.invoice-body::-webkit-scrollbar-thumb{background:#f2ddd0;border-radius:10px}
+.invoice-reminder{background:linear-gradient(135deg,#fff8e6,#fff5d6);border:2px dashed #ffd166;padding:11px 16px;font-size:.82rem;font-weight:800;color:#8a6a00;text-align:center;line-height:1.4}
+.invoice-reminder strong{color:#6b4a00}
+.invoice-actions{padding:14px 22px 18px;background:linear-gradient(180deg,#fffdfa,#fff7f2);border-top:2px dashed #ffe0ea;flex:0 0 auto;transition:background .3s}
+.invoice-hint{text-align:center;font-size:.74rem;color:var(--muted);font-weight:600;margin-bottom:10px;line-height:1.4}
+.invoice-btn-row{display:flex;gap:10px;margin-bottom:8px}
+.invoice-btn-row:last-child{margin-bottom:0}
+.invoice-btn-row .btn{flex:1;padding:13px 12px;font-size:.9rem;white-space:nowrap}
+.invoice-btn-row .btn-ghost{color:var(--ink);border-color:#f2e8e0}
+.btn-again{background:linear-gradient(135deg,#a8e07e,#7cc24a);color:#fff;box-shadow:0 10px 24px rgba(124,194,74,.4)}
+.btn-again:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(124,194,74,.5)}
+.invoice-content{background:#ffffff;padding:24px 22px 22px;font-family:'Quicksand',sans-serif;color:#4b3a33;width:100%;box-sizing:border-box;transition:background .3s,color .3s}
+.inv-brand{text-align:center;padding-bottom:14px;border-bottom:2px dashed #ffe0ea;margin-bottom:14px}
+.inv-brand-name{font-family:'Baloo 2',cursive;font-size:1.5rem;font-weight:800;background:linear-gradient(135deg,#7a5a38,#c9a87c 40%,#5c9c3d 60%,#e2608a);-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.2}
+[data-theme="dark"] .inv-brand-name{background:linear-gradient(135deg,#e0cbb0,#c9a87c 40%,#a8e07e 60%,#ffb3c9);-webkit-background-clip:text;background-clip:text;color:transparent}
+.inv-brand-sub{font-size:.72rem;color:#e2608a;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;margin-top:4px}
+.inv-meta{background:#fffaf4;border-radius:12px;padding:10px 14px;margin-bottom:14px}
+.inv-meta-row{display:flex;justify-content:space-between;font-size:.82rem;padding:3px 0;gap:12px}
+.inv-meta-row span:first-child{color:#93817a;font-weight:600}
+.inv-meta-row span:last-child{font-family:'Baloo 2',cursive;font-weight:700;color:#4b3a33;text-align:right;word-break:break-word}
+.inv-section{margin-bottom:12px;padding-bottom:12px;border-bottom:1.5px dashed #f0e6de}
+.inv-section.no-border{border-bottom:none;padding-bottom:0;margin-bottom:8px}
+.inv-section-title{font-family:'Baloo 2',cursive;font-weight:800;font-size:.85rem;color:#4b3a33;margin-bottom:8px;display:flex;align-items:center;gap:8px;text-transform:uppercase;letter-spacing:.5px}
+.inv-section-title::before{content:'';width:4px;height:14px;border-radius:2px;background:linear-gradient(135deg,#8fd06a,#ff9ab8);display:inline-block}
+.inv-kv{display:flex;justify-content:space-between;font-size:.83rem;padding:3px 0;gap:12px;align-items:flex-start}
+.inv-kv span:first-child{color:#93817a;font-weight:600;flex-shrink:0}
+.inv-kv span:last-child{font-weight:700;text-align:right;word-break:break-word;max-width:65%}
+.inv-patokan{background:linear-gradient(135deg,#fff5f9,#f5fbe9);border-radius:12px;padding:10px 14px;margin-top:4px;border:1.5px dashed #ffd7e3}
+.inv-patokan-lbl{font-size:.72rem;color:#e2608a;font-weight:800;text-transform:uppercase;letter-spacing:.5px;margin-bottom:3px}
+.inv-patokan-val{font-family:'Baloo 2',cursive;font-weight:800;font-size:.9rem;color:#4b3a33;line-height:1.4;word-break:break-word}
+.inv-table{width:100%;border-collapse:collapse}
+.inv-table td{padding:8px 0;border-bottom:1px solid #f5ece1;vertical-align:top}
+.inv-table tr:last-child td{border-bottom:none;padding-bottom:0}
+.inv-item-name{font-family:'Baloo 2',cursive;font-weight:800;font-size:.92rem;color:#4b3a33}
+.inv-item-detail{font-size:.76rem;color:#93817a;font-weight:600;margin-top:1px}
+.inv-item-price{text-align:right;font-family:'Baloo 2',cursive;font-weight:800;font-size:.92rem;color:#4b3a33;white-space:nowrap}
+.inv-totals{background:linear-gradient(135deg,#fff5f9,#f5fbe9);border-radius:14px;padding:12px 16px;margin-bottom:14px}
+.inv-total{display:flex;justify-content:space-between;align-items:baseline;padding-top:10px;margin-top:8px;border-top:2px dashed #ffd7e3;font-family:'Baloo 2',cursive;font-weight:800;gap:10px}
+.inv-total span:first-child{font-size:.85rem;color:#4b3a33;letter-spacing:1px}
+.inv-total span:last-child{font-size:1.35rem;color:#e2608a}
+.inv-footer{text-align:center;padding-top:14px;border-top:2px dashed #ffe0ea;font-size:.8rem}
+.inv-footer-title{font-family:'Baloo 2',cursive;font-weight:800;color:#e2608a;font-size:.92rem;margin-bottom:2px}
+.inv-footer-sub{font-size:.76rem;color:#93817a;font-weight:600}
+.inv-footer-thanks{font-size:.74rem;color:#b9a79e;font-weight:600;margin-top:8px;font-style:italic}
+.reveal{opacity:0;transform:translateY(28px);transition:.7s cubic-bezier(.2,.8,.3,1)}
+.reveal.show{opacity:1;transform:none}
+@media(max-width:520px){
+  section{padding:60px 18px}
+  .cup{width:110px;height:110px;font-size:50px}
+  header{padding:11px 16px}
+  .logo{font-size:1rem}
+  .nav-btn{padding:8px 16px;font-size:.85rem}
+  .theme-toggle{width:34px;height:34px;font-size:.9rem}
+  .modal{border-radius:26px;max-height:94vh}
+  .modal-head{padding:20px 18px 16px}
+  .modal-head h3{font-size:1.2rem}
+  .modal-body{padding:16px 16px 4px}
+  .modal-foot{padding:12px 16px 16px}
+  .total-row .val{font-size:1.5rem}
+  .btn{padding:13px 24px;font-size:.95rem}
+  .lokasi-card{padding:24px 18px}
+  .floaty{font-size:1.5rem}
+  .floaty.big{font-size:1.8rem}
+  .floaty.small{font-size:1.1rem}
+  .invoice-content{padding:20px 18px}
+  .invoice-btn-row{flex-wrap:wrap}
+  .invoice-btn-row .btn{flex:1 1 calc(50% - 5px);padding:12px 8px;font-size:.85rem}
+  .inv-brand-name{font-size:1.3rem}
+  .inv-total span:last-child{font-size:1.2rem}
+  .metode-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="dot"></div>
+    <span>Desertind</span>
+  </div>
+  <div class="header-right">
+    <button class="theme-toggle" id="themeToggle" aria-label="Ganti tema">🌙</button>
+    <button class="nav-btn" onclick="openOrder()">Pesan Yuk</button>
+  </div>
+</header>
+
+<div class="hero">
+  <span class="blob b1"></span>
+  <span class="blob b2"></span>
+  <span class="blob b3"></span>
+  <span class="blob b4"></span>
+  <span class="floaty" style="top:12%;left:8%;animation-delay:0s">🍪</span>
+  <span class="floaty" style="top:20%;right:9%;animation-delay:1s">🍵</span>
+  <span class="floaty big" style="bottom:24%;right:14%;animation-delay:2s">🍓</span>
+  <span class="floaty small" style="bottom:32%;left:12%;animation-delay:.6s">✨</span>
+  <span class="floaty small" style="top:48%;left:5%;animation-delay:1.8s">💚</span>
+  <span class="floaty small" style="top:58%;right:6%;animation-delay:2.6s">💗</span>
+  <span class="floaty" style="top:36%;right:22%;animation-delay:3.2s">🍰</span>
+  <span class="floaty small" style="top:72%;left:22%;animation-delay:.4s">🥰</span>
+  <span class="floaty small" style="top:16%;left:38%;animation-delay:2.4s">🌸</span>
+  <span class="floaty small" style="bottom:14%;right:32%;animation-delay:1.4s">💫</span>
+
+  <div class="badge">Free ongkir untuk Pemalang Kota &amp; Kec. Taman</div>
+  <h1>
+    Desertind
+    <span class="sub-flavors">
+      <span class="grad-o">Oreo</span><span class="dot-sep"> · </span><span class="grad-m">Matcha</span><span class="dot-sep"> · </span><span class="grad-s">Strawberry</span>
+    </span>
+  </h1>
+  <p>Dessert Oreo homemade — lembut, creamy, manisnya pas. Cuma <strong>Rp 13.000 – 15.000</strong> aja. Bisa diantar (COD) atau ambil sendiri.</p>
+
+  <div class="hero-cta">
+    <button class="btn btn-main" onclick="openOrder()">Pesan Sekarang</button>
+    <a class="btn btn-ghost" href="#cara-pesan">Cara Pesan</a>
+  </div>
+  <div class="scroll-hint"><span>⌄</span>scroll ke bawah</div>
+</div>
+
+<section id="cara-pesan" style="background:linear-gradient(180deg,#fffaf4,#fdf3ea)">
+  <div class="wrap">
+    <h2 class="sec-title reveal">Cara Pesan</h2>
+    <p class="sec-sub reveal">Cuma 3 langkah, gampang banget.</p>
+    <div class="cara-grid">
+      <div class="cara-step reveal"><div class="cara-num">1</div><h4>Pilih Menu</h4><p>Pilih rasa, topping, dan jumlah yang kamu mau. Bisa campur 3 rasa sekaligus.</p></div>
+      <div class="cara-step reveal"><div class="cara-num">2</div><h4>Isi Form &amp; Kirim WA</h4><p>Pilih metode, tanggal COD, isi nama &amp; patokan, lalu kirim ke WhatsApp.</p></div>
+      <div class="cara-step reveal"><div class="cara-num">3</div><h4>Simpan Invoice</h4><p>Invoice otomatis muncul. Simpan atau screenshot sebagai bukti saat COD.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="menu">
+  <div class="wrap">
+    <h2 class="sec-title reveal">Menu</h2>
+    <p class="sec-sub reveal">Tiga rasa favorit — bisa dipesan barengan dalam satu checkout.</p>
+    <div class="menu-grid">
+      <div class="card o reveal">
+        <div class="tag oreo-tag">Original</div>
+        <div class="cup o">🍪</div>
+        <h3>Oreo</h3>
+        <p class="desc">Creamy dessert dengan taburan oreo crumble melimpah. Rasa original yang selalu bikin balik lagi.</p>
+        <div class="price o">Rp 13.000 – 15.000<small>Reguler 13.000 · Jumbo 15.000</small></div>
+        <button class="btn btn-ghost" onclick="openOrder('oreo')">Pilih Oreo</button>
+      </div>
+      <div class="card m reveal">
+        <div class="tag">Best Seller</div>
+        <div class="cup m">🍵</div>
+        <h3>Matcha</h3>
+        <p class="desc">Matcha premium yang creamy, dipadu crumble oreo renyah. Pahit manisnya pas banget.</p>
+        <div class="price m">Rp 13.000 – 15.000<small>Reguler 13.000 · Jumbo 15.000</small></div>
+        <button class="btn btn-ghost" onclick="openOrder('matcha')">Pilih Matcha</button>
+      </div>
+      <div class="card s reveal">
+        <div class="tag" style="background:linear-gradient(135deg,#ffb3c9,#ff8fb1);color:#fff">Favorit</div>
+        <div class="cup s">🍓</div>
+        <h3>Strawberry</h3>
+        <p class="desc">Strawberry asli yang segar dan manis, ditabur oreo crumble. Wangi dan bikin nagih.</p>
+        <div class="price s">Rp 13.000 – 15.000<small>Reguler 13.000 · Jumbo 15.000</small></div>
+        <button class="btn btn-main" onclick="openOrder('strawberry')">Pilih Strawberry</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="lokasi" style="background:linear-gradient(180deg,#fdf3ea,#fffaf4)">
+  <div class="wrap">
+    <h2 class="sec-title reveal">Jadwal &amp; Tempat COD</h2>
+    <p class="sec-sub reveal">Ongkir otomatis saat pilih area. Free ongkir Pemalang Kota &amp; Kec. Taman. Luar area, Petarukan Rp 7.000.</p>
+    <div class="lokasi-card reveal">
+      <div class="lokasi-grid">
+        <div class="lokasi-item">
+          <div class="lokasi-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+          <div><h4>Hari COD</h4><p>Sabtu &amp; Minggu<br>Pilih tanggal spesifik saat pesan</p></div>
+        </div>
+        <div class="lokasi-item">
+          <div class="lokasi-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <div><h4>Jam COD</h4><p>10.00 – 18.00 WIB<br>Maksimal jam 6 sore</p></div>
+        </div>
+        <div class="lokasi-item">
+          <div class="lokasi-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12"/><line x1="12" y1="12" x2="16" y2="12"/></svg></div>
+          <div><h4>Jam Operasional</h4><p>Fast respon: 08.00 – 20.00 WIB<br>Di luar jam itu, dibalas besok pagi</p></div>
+        </div>
+        <div class="lokasi-item">
+          <div class="lokasi-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2"/><path d="M6 12h.01M18 12h.01"/></svg></div>
+          <div><h4>Pembayaran</h4><p>Cash (tunai) atau<br>Transfer / E-wallet</p></div>
+        </div>
+        <div class="lokasi-item">
+          <div class="lokasi-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/><path d="M5 17H3V6h11l3 4h4v7h-2"/></svg></div>
+          <div><h4>Ongkir Otomatis</h4><p><strong style="color:var(--matcha-dark)">Pemalang Kota → FREE</strong><br><strong style="color:var(--matcha-dark)">Kec. Taman → FREE</strong><br><strong style="color:var(--straw-dark)">Kec. Petarukan → Rp 7.000</strong><br>Atau ambil sendiri (gratis)</p></div>
+        </div>
+        <div class="lokasi-item temu">
+          <div class="lokasi-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><h4>Contoh Patokan COD</h4><p>Indomaret Banjardawa sebelah dealer Honda<br><span style="color:var(--straw-dark);font-weight:700">Cukup tulis patokan yang jelas &amp; mudah ditemukan — ga perlu alamat lengkap.</span></p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="sec-title reveal">Kenapa Pilih Desertind?</h2>
+    <p class="sec-sub reveal">Bukan cuma enak, tapi juga praktis dan terpercaya.</p>
+    <div class="feat-grid">
+      <div class="feat reveal"><div class="feat-icon"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></svg></div><h4>Bahan Fresh</h4><p>Oreo, matcha &amp; strawberry asli, dibuat baru setiap hari.</p></div>
+      <div class="feat reveal"><div class="feat-icon"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></div><h4>Harga Ramah</h4><p>Cuma 13rb–15rb, cocok buat cemilan harian.</p></div>
+      <div class="feat reveal"><div class="feat-icon"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div><h4>Kemasan Rapi</h4><p>Cup cantik &amp; aman, cocok buat hadiah atau foto.</p></div>
+      <div class="feat reveal"><div class="feat-icon"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div><h4>Fast Respon</h4><p>Order via WhatsApp, dibalas di jam operasional.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="sec-title reveal">Kata Mereka</h2>
+    <p class="sec-sub reveal">Pelanggan yang sudah coba dan suka.</p>
+    <div class="testi-grid">
+      <div class="testi reveal"><div class="stars">★★★★★</div><p>"Matchanya beneran matcha, ga cuma manis doang. Topping oreonya melimpah banget."</p><div class="who"><div class="avatar a2">D</div> Dinda</div></div>
+      <div class="testi reveal"><div class="stars">★★★★★</div><p>"Strawberry-nya seger, anakku suka banget. Packingnya rapi, jadi kado juga oke."</p><div class="who"><div class="avatar a1">R</div> Rina</div></div>
+      <div class="testi reveal"><div class="stars">★★★★★</div><p>"Yang Oreo paling juara buat aku. Creamy, oreonya banyak, ga pelit topping."</p><div class="who"><div class="avatar a3">B</div> Bayu</div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p class="footer-brand" style="font-family:'Baloo 2';font-weight:700;font-size:1.15rem;color:#4b3a33;margin-bottom:6px">Desertind — Oreo · Matcha · Strawberry</p>
+  <p>Dibuat fresh setiap hari. Order sekarang sebelum kehabisan.</p>
+  <p style="margin-top:16px;font-size:.8rem;opacity:.7">© 2026 Desertind</p>
+</footer>
+
+<button class="float-wa" onclick="openOrder()" title="Pesan Sekarang" aria-label="Pesan via WhatsApp">
+  <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 4.9L2 22l5.2-1.4c1.4.8 3 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>
+</button>
+
+<div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+  <div class="modal" id="modalBox" role="dialog" aria-modal="true">
+    <div class="modal-head">
+      <button class="modal-close" id="modalClose" aria-label="Tutup">✕</button>
+      <h3>Racik Pesananmu</h3>
+      <p>Pilih menu, metode, tanggal COD, dan cara bayar.</p>
+    </div>
+    <div class="modal-body">
+      <div class="variant o" id="variant-oreo">
+        <div class="v-top"><div class="v-emoji">🍪</div><div class="v-name"><h4>Oreo</h4><small>Rp 13.000 – 15.000 / cup</small></div></div>
+        <div class="size-row">
+          <button class="size-btn active" data-variant="oreo" data-size="reguler">Reguler <small>13.000</small></button>
+          <button class="size-btn" data-variant="oreo" data-size="jumbo">Jumbo <small>15.000</small></button>
+        </div>
+        <div class="v-bottom">
+          <div class="qty-ctl"><button data-act="minus" data-variant="oreo">−</button><span class="num" id="qty-oreo">0</span><button data-act="plus" data-variant="oreo">+</button></div>
+          <div class="v-subtotal" id="sub-oreo">Rp 0</div>
+        </div>
+      </div>
+
+      <div class="variant m" id="variant-matcha">
+        <div class="v-top"><div class="v-emoji">🍵</div><div class="v-name"><h4>Matcha</h4><small>Rp 13.000 – 15.000 / cup</small></div></div>
+        <div class="size-row">
+          <button class="size-btn active" data-variant="matcha" data-size="reguler">Reguler <small>13.000</small></button>
+          <button class="size-btn" data-variant="matcha" data-size="jumbo">Jumbo <small>15.000</small></button>
+        </div>
+        <div class="v-bottom">
+          <div class="qty-ctl"><button data-act="minus" data-variant="matcha">−</button><span class="num" id="qty-matcha">0</span><button data-act="plus" data-variant="matcha">+</button></div>
+          <div class="v-subtotal" id="sub-matcha">Rp 0</div>
+        </div>
+      </div>
+
+      <div class="variant s" id="variant-strawberry">
+        <div class="v-top"><div class="v-emoji">🍓</div><div class="v-name"><h4>Strawberry</h4><small>Rp 13.000 – 15.000 / cup</small></div></div>
+        <div class="size-row">
+          <button class="size-btn active" data-variant="strawberry" data-size="reguler">Reguler <small>13.000</small></button>
+          <button class="size-btn" data-variant="strawberry" data-size="jumbo">Jumbo <small>15.000</small></button>
+        </div>
+        <div class="v-bottom">
+          <div class="qty-ctl"><button data-act="minus" data-variant="strawberry">−</button><span class="num" id="qty-strawberry">0</span><button data-act="plus" data-variant="strawberry">+</button></div>
+          <div class="v-subtotal" id="sub-strawberry">Rp 0</div>
+        </div>
+      </div>
+
+      <div style="margin-top:18px">
+        <div class="mini-label">Topping <span class="pill">maks 1 · gratis</span></div>
+        <div class="chips">
+          <button class="chip" data-top="Oreo Crumble">Oreo Crumble</button>
+          <button class="chip" data-top="Choco Chips">Choco Chips</button>
+          <button class="chip" data-top="Keju Parut">Keju Parut</button>
+          <button class="chip" data-top="Boba">Boba</button>
+          <button class="chip" data-top="Almond">Almond</button>
+        </div>
+        <div class="hint">Klik lagi untuk membatalkan pilihan topping.</div>
+      </div>
+
+      <div style="margin-top:18px">
+        <div class="mini-label">Metode Pengambilan</div>
+        <div class="metode-grid">
+          <button class="metode-opt active" data-metode="cod">
+            <div class="metode-icon">🛵</div>
+            <div class="metode-name">Diantar (COD)</div>
+            <div class="metode-desc">Ongkir sesuai area</div>
+          </button>
+          <button class="metode-opt" data-metode="pickup">
+            <div class="metode-icon">🏠</div>
+            <div class="metode-name">Ambil Sendiri</div>
+            <div class="metode-desc">Gratis, ambil di rumah</div>
+          </button>
+        </div>
+      </div>
+
+      <div id="areaSection" style="margin-top:18px">
+        <div class="mini-label">Area Pengiriman <span class="pill auto">ongkir otomatis</span></div>
+        <select id="areaSelect" class="area-select">
+          <option value="">— Pilih area pengiriman —</option>
+          <optgroup label="FREE ONGKIR (Pemalang Kota & Kec. Taman)">
+            <option value="Kel. Bojongbata"  data-ongkir="0">Kel. Bojongbata — Free</option>
+            <option value="Kel. Kebondalem"  data-ongkir="0">Kel. Kebondalem — Free</option>
+            <option value="Kel. Mulyoharjo"  data-ongkir="0">Kel. Mulyoharjo — Free</option>
+            <option value="Kel. Paduraksa"   data-ongkir="0">Kel. Paduraksa — Free</option>
+            <option value="Kel. Pelutan"     data-ongkir="0">Kel. Pelutan — Free</option>
+            <option value="Kel. Sugihwaras"  data-ongkir="0">Kel. Sugihwaras — Free</option>
+            <option value="Kel. Widuri"      data-ongkir="0">Kel. Widuri — Free</option>
+            <option value="Kel. Wanarejan"   data-ongkir="0">Kel. Wanarejan — Free</option>
+            <option value="Kec. Taman"       data-ongkir="0">Kec. Taman — Free</option>
+          </optgroup>
+          <optgroup label="Luar Area (Berbayar)">
+            <option value="Kec. Petarukan" data-ongkir="7000">Kec. Petarukan — Rp 7.000</option>
+          </optgroup>
+        </select>
+        <div class="ongkir-info" id="ongkirInfo"></div>
+      </div>
+
+      <div style="margin-top:18px">
+        <div class="mini-label">Tanggal COD <span class="pill">otomatis real-time</span></div>
+        <div class="chips" id="codDateChips"></div>
+        <div class="hint">Pilih salah satu. COD hanya Sabtu/Minggu jam 10.00–18.00 WIB.</div>
+      </div>
+
+      <div class="field" style="margin-top:18px">
+        <div class="mini-label" id="patokanLabel">Patokan / Titik Temu COD <span class="req">*wajib</span></div>
+        <textarea id="patokanInput" placeholder="Contoh: Indomaret Banjardawa sebelah dealer Honda" maxlength="200" rows="2"></textarea>
+        <div class="hint" id="patokanHint">Tulis patokan yang jelas &amp; mudah ditemukan. Cukup satu landmark.</div>
+      </div>
+
+      <div style="margin-top:18px">
+        <div class="mini-label">Metode Pembayaran</div>
+        <div class="chips" id="payChips">
+          <button class="chip" data-pay="cash">💵 Cash (tunai)</button>
+          <button class="chip" data-pay="transfer">💳 Transfer / E-wallet</button>
+        </div>
+        <div class="hint">Pilih cara bayar. Untuk transfer, info rekening dikirim via WA.</div>
+      </div>
+
+      <div class="field" style="margin-top:14px">
+        <div class="mini-label">Nama Kamu <span class="req">*wajib</span></div>
+        <input type="text" id="namaInput" placeholder="Contoh: Dinda" maxlength="30">
+      </div>
+
+      <div class="field" style="margin-top:14px">
+        <div class="mini-label">Catatan <span class="opt">(opsional)</span></div>
+        <textarea id="catatanInput" placeholder="Contoh: jangan terlalu manis, kirim jam 3 sore, dll." maxlength="150" rows="2"></textarea>
+      </div>
+
+      <div class="modal-error" id="modalError">Pilih minimal 1 cup dulu ya.</div>
+    </div>
+    <div class="modal-foot">
+      <div class="total-row"><span class="lbl">Subtotal Produk</span><span class="val-sm" id="subtotalVal">Rp 0</span></div>
+      <div class="total-row"><span class="lbl">Ongkir</span><span class="val-sm" id="ongkirVal">-</span></div>
+      <div class="total-row total-final"><span class="lbl">Total Pembayaran</span><span class="val" id="modalTotal">Rp 0</span></div>
+      <button class="btn btn-wa" id="btnOrder">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 4.9L2 22l5.2-1.4c1.4.8 3 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>
+        Pesan via WhatsApp
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="invoiceBackdrop" aria-hidden="true">
+  <div class="modal invoice-modal" role="dialog" aria-modal="true">
+    <div class="invoice-head">
+      <div class="invoice-success">✓</div>
+      <h3>Pesanan Berhasil!</h3>
+      <p>Invoice sudah disiapkan, tinggal kirim ke Desertind</p>
+    </div>
+    <div class="invoice-body">
+      <div class="invoice-reminder"><strong>Jangan lupa klik Kirim di WhatsApp ya</strong><br>Biar pesananmu masuk ke Desertind. Kalau WA tertutup, klik "Buka WhatsApp" di bawah.</div>
+      <div id="invoiceContent" class="invoice-content"></div>
+    </div>
+    <div class="invoice-actions">
+      <div class="invoice-hint">Simpan gambar atau screenshot sebagai bukti COD</div>
+      <div class="invoice-btn-row">
+        <button class="btn btn-wa" onclick="resendWa()"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 4.9L2 22l5.2-1.4c1.4.8 3 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>Buka WhatsApp</button>
+        <button class="btn btn-main" onclick="saveInvoice()">Simpan Gambar</button>
+      </div>
+      <div class="invoice-btn-row">
+        <button class="btn btn-again" onclick="orderAgain()">Pesan Lagi</button>
+        <button class="btn btn-ghost" onclick="copyInvoice()">Salin Teks</button>
+      </div>
+      <div class="invoice-btn-row">
+        <button class="btn btn-ghost" onclick="closeInvoice()" style="width:100%">Selesai</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script>
+/* ============================================================
+   ⚠️  GANTI 2 BARIS DI BAWAH INI
+   ============================================================ */
+
+// Nomor WhatsApp kamu (format 62, tanpa 0 di depan)
+// Contoh: 081234567890 → '6281234567890'
+const WA_NUMBER = '6281234567890';
+
+// Alamat rumah kamu untuk opsi "Ambil Sendiri"
+// Tulis alamat lengkap + patokan biar pembeli gampang nemu
+const ALAMAT_PICKUP = 'Rumah Desertind — Jl. Melati No. 12, Kel. Bojongbata, Kec. Pemalang';
+
+/* ============================================================
+   JANGAN UBAH DI BAWAH INI (kalau ga yakin)
+   ============================================================ */
+
+const PENJUAL_NAME = 'Desertind';
+const HARGA = { reguler: 13000, jumbo: 15000 };
+const RASA_LABEL = { oreo: 'Oreo', matcha: 'Matcha', strawberry: 'Strawberry' };
+const UKURAN_LABEL = { reguler: 'Reguler', jumbo: 'Jumbo' };
+const VARIANTS = ['oreo','matcha','strawberry'];
+const BULAN = ['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agu','Sep','Okt','Nov','Des'];
+const BULAN_LONG = ['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
+const HARI_SHORT = ['Min','Sen','Sel','Rab','Kam','Jum','Sab'];
+const HARI_LONG = ['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu'];
+
+const state = {
+  oreo: { qty: 0, size: 'reguler' },
+  matcha: { qty: 0, size: 'reguler' },
+  strawberry: { qty: 0, size: 'reguler' },
+  topping: null,
+  metode: 'cod',
+  area: '',
+  ongkir: 0,
+  patokan: '',
+  codHari: '',
+  pembayaran: null,
+  nama: '',
+  catatan: ''
+};
+
+let currentInvoice = null;
+let lastOrder = null;
+
+const $ = id => document.getElementById(id);
+const rupiah = n => 'Rp ' + n.toLocaleString('id-ID');
+
+function applyTheme(t){
+  document.documentElement.setAttribute('data-theme', t);
+  localStorage.setItem('desertind-theme', t);
+  $('themeToggle').textContent = t === 'dark' ? '☀️' : '🌙';
+}
+applyTheme(localStorage.getItem('desertind-theme') || 'light');
+$('themeToggle').addEventListener('click', () => {
+  const cur = document.documentElement.getAttribute('data-theme');
+  applyTheme(cur === 'dark' ? 'light' : 'dark');
+});
+
+function getUpcomingCodDates(count = 4){
+  const today = new Date();
+  today.setHours(0,0,0,0);
+  const dates = [];
+  for(let i = 1; i <= 60 && dates.length < count; i++){
+    const d = new Date(today);
+    d.setDate(d.getDate() + i);
+    const day = d.getDay();
+    if(day === 0 || day === 6) dates.push(d);
+  }
+  return dates;
+}
+function formatCodShort(d){
+  return `${HARI_SHORT[d.getDay()]}, ${d.getDate()} ${BULAN[d.getMonth()]} ${String(d.getFullYear()).slice(-2)}`;
+}
+function formatCodLong(d){
+  return `${HARI_LONG[d.getDay()]}, ${d.getDate()} ${BULAN_LONG[d.getMonth()]} ${d.getFullYear()}`;
+}
+function renderCodDates(){
+  const container = $('codDateChips');
+  container.innerHTML = '';
+  const dates = getUpcomingCodDates(4);
+  dates.forEach(d => {
+    const btn = document.createElement('button');
+    btn.className = 'chip';
+    btn.textContent = formatCodShort(d);
+    btn.dataset.cod = formatCodLong(d);
+    btn.addEventListener('click', e => {
+      container.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      btn.classList.add('active');
+      state.codHari = btn.dataset.cod;
+      updateUI();
+      burst(e.clientX, e.clientY);
+    });
+    container.appendChild(btn);
+  });
+}
+
+function formatDate(d){
+  return `${d.getDate()} ${BULAN[d.getMonth()]} ${d.getFullYear()}, ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')} WIB`;
+}
+function generateOrderId(){
+  const d = new Date();
+  return `ODR-${String(d.getFullYear()).slice(-2)}${String(d.getMonth()+1).padStart(2,'0')}${String(d.getDate()).padStart(2,'0')}-${String(d.getHours()).padStart(2,'0')}${String(d.getMinutes()).padStart(2,'0')}${String(d.getSeconds()).padStart(2,'0')}`;
+}
+
+function updateUI(){
+  let subtotal = 0;
+  let totalQty = 0;
+  VARIANTS.forEach(v => {
+    const s = state[v];
+    const sub = s.qty * HARGA[s.size];
+    subtotal += sub;
+    totalQty += s.qty;
+    $('qty-' + v).textContent = s.qty;
+    document.querySelectorAll(`.size-btn[data-variant="${v}"]`).forEach(b => b.classList.toggle('active', b.dataset.size === s.size));
+    const subEl = $('sub-' + v);
+    subEl.textContent = rupiah(sub);
+    subEl.classList.toggle('on', s.qty > 0);
+    $('variant-' + v).classList.toggle('active-v', s.qty > 0);
+  });
+
+  let ongkir = 0;
+  if(state.metode === 'cod' && state.area){
+    const opt = $('areaSelect').querySelector(`option[value="${state.area}"]`);
+    ongkir = opt ? parseInt(opt.dataset.ongkir || 0) : 0;
+  }
+  state.ongkir = ongkir;
+  const total = subtotal + ongkir;
+
+  $('subtotalVal').textContent = rupiah(subtotal);
+  if(state.metode === 'pickup'){
+    $('ongkirVal').textContent = 'GRATIS';
+    $('ongkirVal').classList.add('free');
+  } else if(!state.area){
+    $('ongkirVal').textContent = '-';
+    $('ongkirVal').classList.remove('free');
+  } else if(ongkir === 0){
+    $('ongkirVal').textContent = 'FREE';
+    $('ongkirVal').classList.add('free');
+  } else {
+    $('ongkirVal').textContent = rupiah(ongkir);
+    $('ongkirVal').classList.remove('free');
+  }
+  $('modalTotal').textContent = rupiah(total);
+
+  if(state.metode === 'cod' && state.area){
+    if(ongkir === 0){
+      $('ongkirInfo').className = 'ongkir-info free';
+      $('ongkirInfo').innerHTML = `<strong>Free ongkir</strong> untuk ${state.area}`;
+    } else {
+      $('ongkirInfo').className = 'ongkir-info paid';
+      $('ongkirInfo').innerHTML = `Ongkir ke <strong>${state.area}</strong>: <strong>${rupiah(ongkir)}</strong>`;
+    }
+    $('areaSelect').classList.add('filled');
+  } else {
+    $('ongkirInfo').className = 'ongkir-info';
+    $('ongkirInfo').style.display = 'none';
+    $('areaSelect').classList.remove('filled');
+  }
+
+  document.querySelectorAll('[data-top]').forEach(c => c.classList.toggle('active', c.dataset.top === state.topping));
+  document.querySelectorAll('[data-pay]').forEach(c => c.classList.toggle('active', c.dataset.pay === state.pembayaran));
+  document.querySelectorAll('.metode-opt').forEach(c => c.classList.toggle('active', c.dataset.metode === state.metode));
+  document.querySelectorAll('[data-cod]').forEach(c => c.classList.toggle('active', c.dataset.cod === state.codHari));
+
+  $('areaSection').style.display = state.metode === 'cod' ? 'block' : 'none';
+
+  if(state.metode === 'pickup'){
+    $('patokanLabel').innerHTML = 'Alamat Ambil Sendiri <span class="req">*wajib</span>';
+    $('patokanInput').placeholder = 'Alamat rumah Desertind (bisa diedit kalau perlu)';
+    $('patokanHint').textContent = 'Pembeli datang sendiri ke alamat ini. Jam ambil 10.00–20.00 WIB.';
+  } else {
+    $('patokanLabel').innerHTML = 'Patokan / Titik Temu COD <span class="req">*wajib</span>';
+    $('patokanInput').placeholder = 'Contoh: Indomaret Banjardawa sebelah dealer Honda';
+    $('patokanHint').textContent = 'Tulis patokan yang jelas & mudah ditemukan. Cukup satu landmark.';
+  }
+
+  if(totalQty > 0 && state.patokan && state.codHari && state.pembayaran && (state.metode === 'pickup' || state.area)){
+    $('modalError').classList.remove('show');
+  }
+}
+
+function showError(msg){
+  const el = $('modalError');
+  el.textContent = msg;
+  el.classList.add('show');
+  const box = $('modalBox');
+  box.classList.remove('shake');
+  void box.offsetWidth;
+  box.classList.add('shake');
+}
+
+function openOrder(preselect){
+  if(preselect){
+    const anyQty = VARIANTS.reduce((s,v) => s + state[v].qty, 0);
+    if(anyQty === 0) state[preselect].qty = 1;
+  }
+  updateUI();
+  $('modalBackdrop').classList.add('open');
+  $('modalBackdrop').setAttribute('aria-hidden','false');
+  document.body.classList.add('lock');
+  setTimeout(() => $('modalBox').scrollTop = 0, 60);
+}
+function closeOrder(){
+  $('modalBackdrop').classList.remove('open');
+  $('modalBackdrop').setAttribute('aria-hidden','true');
+  if(!$('invoiceBackdrop').classList.contains('open')) document.body.classList.remove('lock');
+  $('modalError').classList.remove('show');
+}
+$('modalClose').addEventListener('click', closeOrder);
+$('modalBackdrop').addEventListener('click', e => { if(e.target === $('modalBackdrop')) closeOrder(); });
+
+document.querySelectorAll('.size-btn').forEach(btn => {
+  btn.addEventListener('click', e => { state[btn.dataset.variant].size = btn.dataset.size; updateUI(); burst(e.clientX, e.clientY); });
+});
+document.querySelectorAll('[data-act]').forEach(btn => {
+  btn.addEventListener('click', e => {
+    const v = btn.dataset.variant;
+    if(btn.dataset.act === 'plus'){
+      if(state[v].qty < 30){ state[v].qty++; updateUI(); burst(e.clientX, e.clientY); }
+    } else {
+      if(state[v].qty > 0){ state[v].qty--; updateUI(); burst(e.clientX, e.clientY); }
+    }
+  });
+});
+document.querySelectorAll('[data-top]').forEach(chip => {
+  chip.addEventListener('click', e => {
+    const t = chip.dataset.top;
+    state.topping = (state.topping === t) ? null : t;
+    updateUI(); burst(e.clientX, e.clientY);
+  });
+});
+document.querySelectorAll('.metode-opt').forEach(btn => {
+  btn.addEventListener('click', e => {
+    state.metode = btn.dataset.metode;
+    if(state.metode === 'pickup'){
+      state.area = '';
+      $('areaSelect').value = '';
+      if(!state.patokan || state.patokan === ALAMAT_PICKUP){
+        state.patokan = ALAMAT_PICKUP;
+        $('patokanInput').value = ALAMAT_PICKUP;
+      }
+    }
+    updateUI(); burst(e.clientX, e.clientY);
+  });
+});
+$('areaSelect').addEventListener('change', () => {
+  state.area = $('areaSelect').value;
+  updateUI();
+  if(state.area) burst(window.innerWidth/2, window.innerHeight/2);
+});
+document.querySelectorAll('[data-pay]').forEach(chip => {
+  chip.addEventListener('click', e => { state.pembayaran = chip.dataset.pay; updateUI(); burst(e.clientX, e.clientY); });
+});
+$('patokanInput').addEventListener('input', () => {
+  state.patokan = $('patokanInput').value.trim();
+  $('patokanInput').classList.toggle('invalid', !state.patokan);
+  if(state.patokan) $('modalError').classList.remove('show');
+});
+$('namaInput').addEventListener('input', () => { state.nama = $('namaInput').value.trim(); });
+$('catatanInput').addEventListener('input', () => { state.catatan = $('catatanInput').value.trim(); });
+
+function buildOrderData(){
+  const items = [];
+  let subtotal = 0;
+  VARIANTS.forEach(v => {
+    const s = state[v];
+    if(s.qty > 0){
+      const sub = s.qty * HARGA[s.size];
+      subtotal += sub;
+      items.push({ id: v, name: RASA_LABEL[v], qty: s.qty, size: UKURAN_LABEL[s.size], sub: sub });
+    }
+  });
+  return {
+    id: generateOrderId(),
+    date: new Date(),
+    items: items,
+    topping: state.topping,
+    catatan: state.catatan,
+    subtotal: subtotal,
+    ongkir: state.ongkir,
+    metode: state.metode,
+    area: state.metode === 'pickup' ? 'Ambil Sendiri' : state.area,
+    patokan: state.patokan,
+    codHari: state.codHari,
+    pembayaran: state.pembayaran,
+    nama: state.nama,
+    total: subtotal + state.ongkir
+  };
+}
+
+function buildMessage(o){
+  const lines = [];
+  const ongkirLabel = o.ongkir === 0 ? 'GRATIS' : rupiah(o.ongkir);
+  const metodeLabel = o.metode === 'pickup' ? 'Ambil Sendiri' : 'Diantar (COD)';
+  const payLabel = o.pembayaran === 'cash' ? 'Cash (tunai)' : 'Transfer / E-wallet';
+
+  lines.push('*INVOICE PESANAN*');
+  lines.push(PENJUAL_NAME);
+  lines.push('');
+  lines.push(`Order ID : ${o.id}`);
+  lines.push(`Tanggal  : ${formatDate(o.date)}`);
+  lines.push('');
+  lines.push('*PELANGGAN*');
+  lines.push(`Nama     : ${o.nama || '-'}`);
+  lines.push(`Metode   : ${metodeLabel}`);
+  if(o.metode === 'cod') lines.push(`Area     : ${o.area}`);
+  lines.push(`Patokan  : ${o.patokan}`);
+  lines.push(`Tanggal  : ${o.codHari}`);
+  lines.push(`Bayar    : ${payLabel}`);
+  lines.push('');
+  lines.push('*PESANAN*');
+  o.items.forEach((it, i) => {
+    lines.push(`${i + 1}. ${it.name}`);
+    lines.push(`   ${it.qty} cup - ${it.size} - ${rupiah(it.sub)}`);
+  });
+  lines.push('');
+  lines.push(`Topping  : ${o.topping || 'tanpa topping'}`);
+  lines.push(`Catatan  : ${o.catatan || '-'}`);
+  lines.push('');
+  lines.push('*RINGKASAN*');
+  lines.push(`Subtotal : ${rupiah(o.subtotal)}`);
+  lines.push(`Ongkir   : ${ongkirLabel}`);
+  lines.push(`*TOTAL   : ${rupiah(o.total)}*`);
+  lines.push('');
+  lines.push('Terima kasih kak!');
+  return lines.join('\n');
+}
+
+function renderInvoice(o){
+  const itemRows = o.items.map(it => `
+    <tr>
+      <td>
+        <div class="inv-item-name">${it.name}</div>
+        <div class="inv-item-detail">${it.qty} cup · ${it.size}</div>
+      </td>
+      <td class="inv-item-price">${rupiah(it.sub)}</td>
+    </tr>`).join('');
+  const ongkirLabel = o.ongkir === 0 ? 'GRATIS' : rupiah(o.ongkir);
+  const metodeLabel = o.metode === 'pickup' ? 'Ambil Sendiri' : 'Diantar (COD)';
+  const payLabel = o.pembayaran === 'cash' ? 'Cash (tunai)' : 'Transfer / E-wallet';
+  const patokanLbl = o.metode === 'pickup' ? 'Alamat Ambil Sendiri' : 'Patokan / Titik Temu COD';
+
+  $('invoiceContent').innerHTML = `
+    <div class="inv-brand">
+      <div class="inv-brand-name">${PENJUAL_NAME}</div>
+      <div class="inv-brand-sub">Bukti Pesanan</div>
+    </div>
+    <div class="inv-meta">
+      <div class="inv-meta-row"><span>Order ID</span><span>${o.id}</span></div>
+      <div class="inv-meta-row"><span>Tanggal</span><span>${formatDate(o.date)}</span></div>
+    </div>
+    <div class="inv-section">
+      <div class="inv-section-title">Pelanggan</div>
+      <div class="inv-kv"><span>Nama</span><span>${o.nama || '-'}</span></div>
+      <div class="inv-kv"><span>Metode</span><span>${metodeLabel}</span></div>
+      ${o.metode === 'cod' ? `<div class="inv-kv"><span>Area</span><span>${o.area}</span></div>` : ''}
+      <div class="inv-kv"><span>Tanggal COD</span><span>${o.codHari}</span></div>
+      <div class="inv-kv"><span>Pembayaran</span><span>${payLabel}</span></div>
+      <div class="inv-patokan">
+        <div class="inv-patokan-lbl">${patokanLbl}</div>
+        <div class="inv-patokan-val">${o.patokan}</div>
+      </div>
+    </div>
+    <div class="inv-section">
+      <div class="inv-section-title">Pesanan</div>
+      <table class="inv-table"><tbody>${itemRows}</tbody></table>
+    </div>
+    <div class="inv-section no-border">
+      <div class="inv-kv"><span>Topping</span><span>${o.topping || '-'}</span></div>
+      <div class="inv-kv"><span>Catatan</span><span>${o.catatan || '-'}</span></div>
+    </div>
+    <div class="inv-totals">
+      <div class="inv-kv"><span>Subtotal</span><span>${rupiah(o.subtotal)}</span></div>
+      <div class="inv-kv"><span>Ongkir</span><span>${ongkirLabel}</span></div>
+      <div class="inv-total"><span>TOTAL</span><span>${rupiah(o.total)}</span></div>
+    </div>
+    <div class="inv-footer">
+      <div class="inv-footer-title">Tunjukkan bukti ini saat COD</div>
+      <div class="inv-footer-sub">Terima kasih sudah pesan dari ${PENJUAL_NAME}!</div>
+      <div class="inv-footer-thanks">Dibuat fresh, semoga suka ✨</div>
+    </div>
+  `;
+}
+
+function openInvoice(o){
+  currentInvoice = o;
+  renderInvoice(o);
+  $('invoiceBackdrop').classList.add('open');
+  $('invoiceBackdrop').setAttribute('aria-hidden','false');
+  document.body.classList.add('lock');
+  const b = document.querySelector('#invoiceBackdrop .invoice-body');
+  if(b) b.scrollTop = 0;
+}
+function closeInvoice(){
+  $('invoiceBackdrop').classList.remove('open');
+  $('invoiceBackdrop').setAttribute('aria-hidden','true');
+  document.body.classList.remove('lock');
+}
+$('invoiceBackdrop').addEventListener('click', e => { if(e.target === $('invoiceBackdrop')) closeInvoice(); });
+
+$('btnOrder').addEventListener('click', e => {
+  const totalQty = VARIANTS.reduce((s,v) => s + state[v].qty, 0);
+  if(totalQty === 0){ showError('Pilih minimal 1 cup dulu ya.'); return; }
+  if(state.metode === 'cod' && !state.area){ showError('Pilih area pengiriman dulu ya.'); return; }
+  if(!state.patokan){
+    showError(state.metode === 'pickup' ? 'Isi alamat ambil dulu ya.' : 'Isi patokan COD dulu ya.');
+    $('patokanInput').classList.add('invalid');
+    $('patokanInput').focus();
+    return;
+  }
+  if(!state.codHari){ showError('Pilih tanggal COD dulu ya.'); return; }
+  if(!state.pembayaran){ showError('Pilih metode pembayaran: Cash atau Transfer.'); return; }
+  if(!state.nama){ showError('Isi nama kamu dulu ya.'); $('namaInput').classList.add('invalid'); $('namaInput').focus(); return; }
+
+  burst(e.clientX, e.clientY, 20);
+  const order = buildOrderData();
+
+  lastOrder = {
+    oreo: { ...state.oreo },
+    matcha: { ...state.matcha },
+    strawberry: { ...state.strawberry },
+    topping: state.topping,
+    metode: state.metode,
+    area: state.area,
+    patokan: state.patokan,
+    pembayaran: state.pembayaran,
+    nama: state.nama,
+    catatan: state.catatan
+  };
+
+  const url = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(buildMessage(order));
+  window.open(url, '_blank');
+  closeOrder();
+  openInvoice(order);
+});
+
+function orderAgain(){
+  if(!lastOrder) return;
+  VARIANTS.forEach(v => {
+    state[v].qty = lastOrder[v].qty;
+    state[v].size = lastOrder[v].size;
+  });
+  state.topping = lastOrder.topping;
+  state.metode = lastOrder.metode;
+  state.area = lastOrder.area;
+  state.patokan = lastOrder.patokan;
+  state.pembayaran = lastOrder.pembayaran;
+  state.nama = lastOrder.nama;
+  state.catatan = lastOrder.catatan;
+  state.codHari = '';
+
+  $('areaSelect').value = lastOrder.area || '';
+  $('patokanInput').value = lastOrder.patokan || '';
+  $('namaInput').value = lastOrder.nama || '';
+  $('catatanInput').value = lastOrder.catatan || '';
+
+  updateUI();
+  closeInvoice();
+  setTimeout(() => openOrder(), 100);
+}
+
+function resendWa(){
+  if(!currentInvoice) return;
+  window.open('https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(buildMessage(currentInvoice)), '_blank');
+}
+function copyInvoice(){
+  if(!currentInvoice) return;
+  const text = buildMessage(currentInvoice);
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(() => flashToast('Teks invoice sudah disalin.')).catch(() => fallbackCopy(text));
+  } else fallbackCopy(text);
+}
+function fallbackCopy(text){
+  const ta = document.createElement('textarea');
+  ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+  document.body.appendChild(ta); ta.select();
+  try { document.execCommand('copy'); flashToast('Teks invoice sudah disalin.'); }
+  catch(e){ alert('Gagal menyalin teks.'); }
+  document.body.removeChild(ta);
+}
+function flashToast(msg){
+  const t = document.createElement('div');
+  t.textContent = msg;
+  t.style.cssText = 'position:fixed;bottom:90px;left:50%;transform:translateX(-50%);background:#4b3a33;color:#fff;padding:11px 20px;border-radius:50px;font-family:Quicksand;font-weight:700;font-size:.85rem;z-index:99999;box-shadow:0 10px 24px rgba(0,0,0,.25)';
+  document.body.appendChild(t);
+  setTimeout(()=>{ t.style.transition='opacity .3s'; t.style.opacity='0'; }, 1700);
+  setTimeout(()=> t.remove(), 2100);
+}
+function saveInvoice(){
+  if(!currentInvoice){ alert('Invoice belum tersedia.'); return; }
+  if(typeof html2canvas === 'undefined'){ alert('Fitur simpan gambar tidak tersedia (offline). Silakan screenshot halaman ini ya.'); return; }
+  html2canvas($('invoiceContent'), { backgroundColor:'#ffffff', scale:2, useCORS:true, logging:false, letterRendering:true })
+  .then(canvas => {
+    const link = document.createElement('a');
+    link.download = `Invoice-${currentInvoice.id}.png`;
+    link.href = canvas.toDataURL('image/png');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  })
+  .catch(err => { console.error(err); alert('Gagal menyimpan. Silakan screenshot halaman ini ya.'); });
+}
+
+function burst(x, y, count){
+  const palette = ['#c9a87c','#8fd06a','#ff9ab8','#7a5a38','#5c9c3d','#e2608a'];
+  const n = count || 8;
+  for(let i = 0; i < n; i++){
+    const el = document.createElement('span');
+    const color = palette[Math.floor(Math.random() * palette.length)];
+    const size = 5 + Math.random() * 7;
+    el.style.cssText = `position:fixed;left:${x}px;top:${y}px;width:${size}px;height:${size}px;border-radius:50%;background:${color};pointer-events:none;z-index:9999`;
+    document.body.appendChild(el);
+    const dx = (Math.random() - 0.5) * 240;
+    const dy = -(60 + Math.random() * 200);
+    el.animate([
+      { transform:'translate(-50%,-50%) scale(1)', opacity:1 },
+      { transform:`translate(calc(-50% + ${dx}px), calc(-50% + ${dy}px)) scale(.4)`, opacity:0 }
+    ], { duration: 700 + Math.random() * 500, easing: 'cubic-bezier(.2,.7,.3,1)' })
+    .onfinish = () => el.remove();
+  }
+}
+
+document.addEventListener('keydown', e => {
+  if(e.key === 'Escape'){
+    if($('invoiceBackdrop').classList.contains('open')) closeInvoice();
+    else if($('modalBackdrop').classList.contains('open')) closeOrder();
+  }
+});
+
+const io = new IntersectionObserver(entries => {
+  entries.forEach(en => {
+    if(en.isIntersecting){ en.target.classList.add('show'); io.unobserve(en.target); }
+  });
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach((el, i) => {
+  el.style.transitionDelay = (i % 4) * 0.06 + 's';
+  io.observe(el);
+});
+
+renderCodDates();
+updateUI();
+</script>
+</body>
+</html>
